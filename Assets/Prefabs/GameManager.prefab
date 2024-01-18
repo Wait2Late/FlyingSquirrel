@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1855621936021553756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7357034598008669086}
+  - component: {fileID: 5528201440286066690}
+  - component: {fileID: 7743509454879770369}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7357034598008669086
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855621936021553756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5528201440286066690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855621936021553756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75c17505a7b32124c8633857676508e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myInvertedControls: 0
+  myPlayer: {fileID: 0}
+  myDeathScreen: {fileID: 0}
+  myWinScreen: {fileID: 0}
+  myOrbs: []
+  myStartOrbs: 0
+  myOrbsLeft: 0
+  myOrbCounter: {fileID: 0}
+  myTimer: {fileID: 0}
+  myFinalOrbCountText: {fileID: 0}
+  myCurrentTimeText: {fileID: 0}
+  myBestTimeText: {fileID: 0}
+  myLevelInfo1: {fileID: 0}
+  myLevelInfo2: {fileID: 0}
+  myLevelInfo3: {fileID: 0}
+  myBestOrbsText1: {fileID: 0}
+  myBestOrbsText2: {fileID: 0}
+  myBestOrbsText3: {fileID: 0}
+  myLevelAmountOfOrbs: 000000000000000000000000
+  myBestTimeText1: {fileID: 0}
+  myBestTimeText2: {fileID: 0}
+  myBestTimeText3: {fileID: 0}
+  myBestTimes:
+  - 0
+  - 0
+  - 0
+  myMaxCollectedOrbs: 000000000000000000000000
+  myCurrentScore: 0
+  myHighScore: 0
+  myLevelOneUnlocked: 1
+  myLevelTwoUnlocked: 1
+  myLevelThreeUnlocked: 1
+--- !u!114 &7743509454879770369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855621936021553756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7faf6e27193c55541aea9193e07129ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
